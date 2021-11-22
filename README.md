@@ -3,7 +3,10 @@ This project will help you share Postgres metrics for Prometheus.
 
 ## Install
 ```bash
+$ cd /opt
 $ pip3 install flask psycopg2 
+$ git clone https://github.com/andrebrisolla/pg_exporter.git
+$ cd pg_exporter
 ```
 
 ## Config
