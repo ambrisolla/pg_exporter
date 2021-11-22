@@ -31,6 +31,17 @@ flask run --host 0.0.0.0 -p 9432
 $ sh start.sh
 ```
 
+## Create a Systemd Service
+
+Copy the pg_exporter.service file to /etc/systemd/system/pg_exporter.service.
+```bash
+$ cp pg_exporter.service /etc/systemd/system/pg_exporter.service
+```
+ Reload systemd daemon
+```bash
+$ systemctl daemon-reload
+```
+
 ## Test
 ```bash
 curl http://[IP]:9432/metrics

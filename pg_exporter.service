@@ -8,7 +8,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=/tmp/start.sh
+ExecStart=/opt/pg_exporter/start.sh
 
 [Install]
 WantedBy=multi-user.target
