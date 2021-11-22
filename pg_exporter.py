@@ -139,5 +139,6 @@ class Exporter:
         all_metrics = self.get_monitor_stats() + self.pg_settings()
         return all_metrics
 
-#e = Exporter()
-#print(e.metrics())
+if __name__ == '__main__':
+    e = Exporter()
+    print(e.metrics())
