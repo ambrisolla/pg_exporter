@@ -41,7 +41,10 @@ $ cp pg_exporter.service /etc/systemd/system/pg_exporter.service
 ```bash
 $ systemctl daemon-reload
 ```
-
+Start service
+```bash
+$ systemctl start pg_exporter
+```
 ## Test
 ```bash
 curl http://[IP]:9432/metrics
