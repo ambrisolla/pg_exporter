@@ -100,7 +100,7 @@ class Exporter:
         Monitor stats: https://www.postgresql.org/docs/9.6/monitoring-stats.html
     """
     def get_monitor_stats(self):
-        tables = ['pg_stat_activity','pg_stat_replication','pg_stat_database','pg_stat_database_conflicts']
+        tables = ['pg_locks','pg_stat_activity','pg_stat_replication','pg_stat_database','pg_stat_database_conflicts']
         str_output = ''
         for table in tables:
             query = f'SELECT * from {table}'

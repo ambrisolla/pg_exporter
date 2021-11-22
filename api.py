@@ -1,5 +1,5 @@
 from flask import Flask, Response
-from pgsql_exporter import Exporter
+from pg_exporter import Exporter
 
 app = Flask(__name__)
 
