@@ -1,9 +1,9 @@
 <h1>pg_expoter - Postgres Prometheus metrics exporter</h1>
-This project help's us to share Postgres metrics for Prometheus.
+This project will help you share Postgres metrics for Prometheus.
 
 ## Install
 ```bash
-pip3 install flask psycopg2 
+$ pip3 install flask psycopg2 
 ```
 
 ## Config
@@ -28,7 +28,7 @@ flask run --host 0.0.0.0 -p 9432
 ```
 ## Run
 ```bash
-sh start.sh
+$ sh start.sh
 ```
 
 ## Test
