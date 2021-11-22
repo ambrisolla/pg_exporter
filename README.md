@@ -15,7 +15,8 @@ PSQL_PORT=5432
 PSQL_USER=postgres
 PSQL_PASS=password
 ```
-<br>
+</br>
+
 Change the APP_DIR variable according to your configuration:
 ```bash
 #!/bin/bash
