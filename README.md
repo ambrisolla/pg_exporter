@@ -8,16 +8,6 @@ $ git clone https://github.com/andrebrisolla/pg_exporter.git /opt/pg_exporter
 $ cd /opt/pg_exporter
 ```
 
-## Config
-Set the values according to your database:
-```bash
-[PSQL]
-PSQL_HOST=192.168.15.12
-PSQL_PORT=5432
-PSQL_USER=postgres
-PSQL_PASS=password
-```
-</br>
 
 Change the APP_DIR variable according to your configuration:
 ```bash
