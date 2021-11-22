@@ -30,3 +30,8 @@ flask run --host 0.0.0.0 -p 9432
 ```bash
 sh start.sh
 ```
+
+## Test
+```bash
+curl http://[IP]:9432/metrics
+```
