@@ -8,7 +8,7 @@ pip3 install flask psycopg2
 
 ## Config
 Set the values according to your database.
-```config
+```bash
 [PSQL]
 PSQL_HOST=192.168.0.1
 PSQL_PORT=5432
